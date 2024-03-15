@@ -21,32 +21,62 @@
 
     <title>Frontend Mentor | Easybank landing page</title>
   </head>
-  <body>
-    <header class="container-lg mx-auto flex justify-between px-11">
+  <body class="overflow-x-hidden">
+    <header
+      class="container-lg mx-auto flex justify-between px-16 bg-white items-center h-16 relative z-10"
+    >
       <div class="logo">
         <img src="./images/logo.svg" alt="Easybank logo" />
       </div>
       <nav>
         <ul class="flex gap-2">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Careers</a></li>
+          <li>
+            <a href="#" class="text-grayishBlue hover:text-darkBlue">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-grayishBlue hover:text-darkBlue">About</a>
+          </li>
+          <li>
+            <a href="#" class="text-grayishBlue hover:text-darkBlue">Contact</a>
+          </li>
+          <li>
+            <a href="#" class="text-grayishBlue hover:text-darkBlue">Blog</a>
+          </li>
+          <li>
+            <a href="#" class="text-grayishBlue hover:text-darkBlue">Careers</a>
+          </li>
         </ul>
       </nav>
-      <div class="cta">
-        <a href="#" class="button">Request Invite</a>
-      </div>
+
+      <a
+        href="#"
+        class="bg-gradient-to-r from-limeGreen to-brightCyan px-5 py-2 text-white rounded-3xl font-semibold"
+        >Request Invite</a
+      >
     </header>
 
-    <section class="hero">
-      <h1>Next generation digital banking</h1>
-      <p>
-        Take your financial life online. Your Easybank account will be a
-        one-stop-shop for spending, saving, budgeting, investing, and much more.
-      </p>
-      <a href="#" class="button">Request Invite</a>
+    <section
+      class="bg-veryLightGray py-48 bg-[position:40rem_-20rem] bg-[url('/images/bg-intro-desktop.svg')] bg-cover bg-no-repeat flex items-center relative"
+    >
+      <div class="w-2/5 ml-16">
+        <h1 class="text-6xl text-darkBlue">Next generation digital banking</h1>
+        <p class="text-grayishBlue my-10">
+          Take your financial life online. Your Easybank account will be a
+          one-stop-shop for spending, saving, budgeting, investing, and much
+          more.
+        </p>
+        <a
+          href="#"
+          class="bg-gradient-to-r from-limeGreen to-brightCyan px-7 py-4 text-white rounded-3xl font-semibold"
+          >Request Invite</a
+        >
+      </div>
+
+      <img
+        src="./images/image-mockups.png"
+        alt=""
+        class="absolute -right-28 -top-44"
+      />
     </section>
 
     <section class="reasons">

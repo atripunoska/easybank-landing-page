@@ -1,7 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: ["./*.html"],
   theme: {
+    fontFamily: {
+      sans: ['"Public Sans", sans-serif', ...defaultTheme.fontFamily.sans],
+    },
     extend: {
       colors: {
         darkBlue: "hsl(233, 26%, 24%)",
