@@ -16,7 +16,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 
 ### The challenge
 
-Users is be able to:
+Users are able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
